@@ -1,0 +1,21 @@
+---
+# MegaLinter configuration tuned for this Arduino-focused C++ project
+APPLY_FIXES: none
+DEFAULT_BRANCH: main
+REPORT_OUTPUT_FOLDER: megalinter-reports
+VALIDATE_ALL_CODEBASE: true
+
+ENABLE_LINTERS:
+  - C_CPPLINT
+  - YAML_YAMLLINT
+  - MARKDOWN_MARKDOWNLINT
+
+DISABLE_LINTERS:
+  - C_CLANG_FORMAT
+  - C_CPPCHECK
+
+FILTER_REGEX_EXCLUDE: "(^|/)(\\.git/|build/|dist/|out/|\\.vscode/|\\.github/workflows/mega-linter\\.yml)"
+
+MARKDOWN_MARKDOWNLINT_FILTER_REGEX_EXCLUDE: "(^|/)LICENSE\\.md"
+
+C_CPPLINT_ARGUMENTS: "--filter=-build/include_subdir,-runtime/references,-legal/copyright,-whitespace/line_length,-build/header_guard"
