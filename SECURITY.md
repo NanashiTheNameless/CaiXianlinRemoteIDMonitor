@@ -32,6 +32,7 @@ This project is an Arduino-based RF receiver monitor for educational and persona
 This project includes:
 
 - **Arduino Platform**: LGPL-licensed components
+- **Main Code**: BSD 2-Clause License
 - **Custom Modified Libraries** (`libraries/`): BSD 2-Clause License
 
 For security updates and advisories regarding Arduino or other dependencies, refer to their respective repositories and security policies.

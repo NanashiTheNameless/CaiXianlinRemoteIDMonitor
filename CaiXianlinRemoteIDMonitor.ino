@@ -1,5 +1,4 @@
-// This code is Licensed under a propritary license NNCL v1.3 (see LICENSE.md)
-// This code uses BSD 2-Clause licensed libraries located in libraries/ they remain under their original license and are not relicensed under NNCL.
+//This is licensed under the BSD 2-Clause License
 
 #include "libraries/collar/src/collar.h"
 

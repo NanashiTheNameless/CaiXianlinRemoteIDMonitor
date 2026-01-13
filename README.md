@@ -32,5 +32,4 @@ ID: 0x7FFF (32767) | Channel: 1 | Mode: Stop
 
 ## License
 
-- **CaiXianlinRemoteIDMonitor.ino**: NNCL (see LICENSE.md)
-- **Libraries (libraries/)**: BSD 2-Clause License
+BSD 2-Clause License
